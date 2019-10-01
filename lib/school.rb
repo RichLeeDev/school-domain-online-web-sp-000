@@ -9,11 +9,9 @@ class School
     @roster
   end
   
-  def length=(length)
-    @length = length
-  end
+  def add_student(student, grade)
+    @student = student
+    @grade = grade
   
-  def length
-    @length
-  end 
+  end   
 end 
