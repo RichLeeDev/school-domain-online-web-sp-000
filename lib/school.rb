@@ -5,6 +5,10 @@ class School
     @roster = {}
   end
   
+  def roster
+    @roster
+  end
+  
   def length=(length)
     @length = length
   end
